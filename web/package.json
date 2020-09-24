@@ -1,0 +1,19 @@
+{
+  "name": "cis350final-webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^2.9.3",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.6",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView4"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:background="#66B0E0"-->
+<!--        android:backgroundTint="#73BFDA"-->
+<!--        android:fontFamily="serif"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:padding="16dp"-->
+<!--        android:text="Compose Message"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Large"-->
+<!--        android:textSize="30sp" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compose Message:"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/header1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:includeFontPadding="true"
+        android:background="#EDA8D9F7"
+        android:backgroundTintMode="add"
+        android:padding="8dp"
+        android:textAlignment="viewStart"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/header2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:includeFontPadding="true"
+        android:padding="8dp"
+        android:textAlignment="viewStart"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/enterMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp"
+        android:textAlignment="viewStart"
+        android:textIsSelectable="true"
+        android:textSize="18sp">
+
+        <requestFocus />
+
+    </EditText>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|center_horizontal"
+        android:backgroundTint="#009082"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:onClick="onSendButtonClick"
+        android:padding="16dp"
+        android:text="Send message for approval"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+<!--   original green button color "#7CB97C-->
+</LinearLayout>
